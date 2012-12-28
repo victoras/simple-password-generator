@@ -6,25 +6,39 @@
 		body {
 			min-width:357px;
 			overflow-x:hidden;
-			background: #f3f3f3;
+			background: #fff;
 		}
 		div{
-			border: 1px dotted #999;
-			padding: 10px;
+			border: 1px solid #ccc;
+			padding: 10px 5px;
 			margin: 5px;
 			font-weight: bold;
+			background: #f3f3f3;
+			-webkit-border-radius: 5px;
 		}
-		div span{
+		#password{
 			font-weight: normal;
-			background: #fff;
+			background: #333;
 			padding: 5px;
-			border: 1px dotted #ccc;
+			border: 1px solid #000;
+			font-size: 20px;
+			color: #fff;
+			-webkit-border-radius: 5px;
 		}
 	</style>
 
 	<!-- JavaScript and HTML must be in separate files for security. -->
+	<script src='jquery-1.8.3.min.js'></script>
 	<script src="popup.js"></script>
 </head>
 <body>
+	<div class="main">
+		<span class="password">
+			
+		</span>
+		<span class="button">
+			<a href="#">Copy me</a>
+		</span>
+	</div>
 </body>
 </html>
